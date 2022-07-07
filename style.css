@@ -9,7 +9,8 @@
    padding-left: 60px;
    padding-right: 60px;
     width: 100%;
-    
+    /* position: fixed;
+     */
     
 }
 .left{
@@ -26,14 +27,16 @@
     color: white;
     text-decoration: none;
 }
-.navbar{
-    border:2px solid black;
-    height: 80px;
-}
+
 .navbar{
     padding-left: 60px;
     padding-right: 60px;
     padding-top: 0;
+    height: 80px;
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    
 }
 button[type=submit]{
 background-color: orange;
@@ -59,8 +62,112 @@ color: #ffffff;
 }
 .background {
     background-image: url("background.jpg");
-    height: 600px;
+    height: 400px;
+    padding-top: 16%;
 }
 .join{
-    color:#ffffff
+    color:#ffffff;
+    font-size: 12px;
+    margin-left: 40%;
+
+}
+.bgContent{
+ 
+    width: 40%;
+    margin-left: 30%;
+   
+}
+.better{
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 20%;
+}
+.help{
+    color: white;
+    font-size: 12px;
+    margin-left: 20%;
+}
+.btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+    width: 350px; 
+    padding-left: 20%;
+    grid-column-gap: 3px;
+    
+}
+.button{
+    background-color: orange;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.rounded-circle{
+    border:1px solid black;
+    margin-left: 130px;
+}
+.p-text{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.button1,.button2{
+    background-color: gold;
+    width: 90px;
+    color: #ffffff;
+}
+.map{
+    background-color: #222;
+    background-image: url(map.png);
+    /* background-size: 20px; */
+     background-position: right 150px center;
+    background-repeat: no-repeat; 
+    width: 100%;
+    height: 100%;
+    height: 200px; 
+}
+
+.footer{
+
+ 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #000000;
+  grid-column-gap: 2px;
+  padding-left: 20%;
+  
+
+  
+}
+
+.recent a{
+    text-decoration: none;
+    color: white;
+}
+
+.recent a:hover{
+    text-decoration: underline;
+    color:gold;
+}
+
+.down{
+width: 100%;
+border-top: 1px solid white;
+background-color: #000000;
+padding-left: 30%;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+span a{
+    text-decoration: none;
+    color: #ffffff;
+}
+span a:hover{
+    color: gold;
+}
+.icons i {
+    color: gold;
 }
